@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.boton{
+    margin-top: 2rem;
+}
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+.boton button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.body{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+    
+}
+
+.head img{
+    width: 20rem;
+    margin-left: 4rem;
+}
+
+.head h1{
+    margin-right: 7rem;
+    font-weight:normal;
+}
+
+.head{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 0rem;
+
+}
+section h2{
+    font-size: 1rem;
+    text-align: center;
+    background: #003366;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    color: white;
+    transition: 0.7s;
+}
+.sections{
+    background: #CC3333;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 19px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+}
+.sections img{
+    border-radius: 0.5rem;
+    transition: 0.7s;
+    height: 10rem;
+    
+}
+
+.sections:hover img{
+    width: 14rem !important;
+    filter: grayscale(100%);
+    transition: 0.7s;
+}
+.sections:hover h2{
+    font-size: 0.9rem;
+    transition: 0.7s;
+}
+
+@media (max-width:800px){
+
+   
+    .head{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h1{
+        margin-right: 0rem;
+    }
+    .body{
+     
+        width: 90%;
+        
+    }
+    .head img{
+        width: 13rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .head h1{
+        font-size: 1.3rem;
+    }
+    .main{
+        width: 80%;
+    }
+    #section-1{
+        margin-bottom: 2rem;
+    }
+    .sections img{
+        border-radius: 0.5rem;
+        width: 12rem !important;
+        transition: 0.7s;
+        
+        
+    }
+    .sections:hover img{
+        width: 11rem !important;
+        
+    }
+    .sections:hover h2{
+        font-size: 0.8rem;
+        
+    }
+   
+  
+    
+}
