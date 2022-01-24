@@ -143,19 +143,22 @@ section h2{
     #section-1{
         margin-bottom: 2rem;
     }
+    .sections h2{
+        font-size: 0.8rem;
+    }
     .sections img{
         border-radius: 0.5rem;
-        width: 12rem !important;
+        width: 11rem !important;
         transition: 0.7s;
         
         
     }
     .sections:hover img{
-        width: 11rem !important;
+        width: 10rem !important;
         
     }
     .sections:hover h2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         
     }
    
